@@ -1,4 +1,4 @@
-//  REQUIRE mira todo lo que hay en la carpeta node_modules
+//  REQUIRE mira todo lo que hay en la carpeta node_modules //
 const express = require("express");
 require("dotenv").config();
 const path = require("path");
