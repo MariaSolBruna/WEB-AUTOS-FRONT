@@ -1,0 +1,46 @@
+<div class=" d-flex mb-3 mt-5"  style="flex-direction: row;"  >
+  
+  <div class="container mb-5"  style="background-color: rgb(248, 245, 88);">
+    <p class="tituloTabla text-black text-center">+ FÁCIL, + SEGURO </p></div>
+    
+    
+   <div><img src="/images/manoconllave.png" class="leftColumn_columnsSection" width="250x" height="300px"></div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row">
+    {{#each products}}
+    <div class="col-12 col-lg-4 my-2 ">
+      <div class="card border border-warning rounded">
+        <div class="d-flex justify-content-center mt-1">
+        <img class="imgTabla my-2" src="{{imageURL}}" alt="{{Modelo}}">
+        </div>
+        <div class="card-body text-center">
+          <h2 class="card-title text-uppercase "><mark>{{Modelo}}</mark></h2>
+          <h5 class="card-title">{{Marca}}</h5>
+          <h5 class="card-title">{{Versión}}</h5> 
+          <h5 class="card-title">{{Año}}</h5> 
+          <h5 class="card-title">{{Combustible}}</h5> 
+          <h5 class="card-title">{{Motor}}</h5> 
+          <h4 class="card-title">$ {{Precio}}</h4> 
+              <a href="/secret"><button class="btn btn-warning">COMPRAR</button></a> 
+        </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+</div>
+
+
+
+
+
+
+
+<footer class="footerProducts mt-5 container-fluid text-white d-flex justify-content-center align-items-center">
+
+ <p class="col-md-3 mb-0">&copy; SINCE 2021.</p>
+ <img src="/images/logo 3.png" class="img-fluid" width="120px" height="80px">
+
+</footer>

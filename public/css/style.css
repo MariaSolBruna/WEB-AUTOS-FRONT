@@ -1,0 +1,123 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+footer {
+    height: 100px;
+    background-color: black;
+    position: static;
+    bottom: 0;
+
+}
+
+.footerProducts {
+    height: 100px;
+    background-color: black;
+    position: static;
+    bottom: 0;
+}
+
+.footerSecret {
+    height: 100px;
+    background-color: black;
+
+    bottom: 0;
+}
+
+.footerLogin {
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+
+.footerRegister {
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+
+.card .imgEstrella {
+    height: 45px;
+    width: 230px;
+}
+
+.card .imgPersona {
+    height: 120px;
+    width: 120px;
+}
+
+.imagenQuienes img {
+    width: 400px;
+    height: 250px;
+}
+
+.viviCartel {
+    font-family: 'Parisienne', cursive;
+    font-size: 3rem;
+
+}
+
+.newTaos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+.newTaosP {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 8rem;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.titulosSuc {
+    text-decoration: none;
+    color: black;
+}
+
+.tituloTabla {
+    font-size: 4rem;
+    padding-top: 4.7rem;
+
+}
+
+.imgTabla {
+    width: 320px;
+    height: 160px;
+}
+
+.secretBg {
+    background-image: url("/images/bgAuto1.jpg");
+}
+
+
+
+@media screen and (max-width: 539px) {
+
+
+    .fotosMarcas {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .carrPrincipal {
+        max-height: 320px;
+        max-width: 400px;
+        margin-bottom: 3rem;
+    }
+
+    .tablaProducts {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
